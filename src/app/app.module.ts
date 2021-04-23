@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './auth/components/login/login.component';
 import { AdminComponent } from './components/administrador/admin/admin.component';
+import { CajeroComponent } from './components/cajero/cajero.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    AdminComponent
+    AdminComponent,
+    CajeroComponent
   ],
   imports: [
     BrowserModule,

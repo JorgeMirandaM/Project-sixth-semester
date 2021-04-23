@@ -23,6 +23,8 @@ export class LoginComponent implements OnInit {
     const password = form.value.password;
     if(email=='josue.rocha0809@gmail.com'){
     this.router.navigate(['administrador']);
+    }else{
+      this.router.navigate(['cajero']);
     }
   }
 

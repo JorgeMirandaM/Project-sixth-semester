@@ -13,6 +13,7 @@ html {
     padding: 10px;
   }
   
+  
   .box {
     max-width: 400px;
     margin: 50px auto;
@@ -59,7 +60,7 @@ html {
     margin-left: 20px;
   }
   
-  button {
+  .botonlogin{
     min-height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -103,4 +104,17 @@ html {
     color: grey;
     opacity: 1;
   }
-  
+
+.session{
+margin-left:40px;
+margin-bottom: 10px;
+display: block;
+}
+h2{
+  text-align: center;
+}
+
+.loginsesion{
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
