@@ -3,10 +3,7 @@ body{
     
 }
 header{
-    width: 100px;
-    background:-webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-    
-  
+    width:auto;
 }
 
 #btn-menu{
@@ -18,12 +15,15 @@ header label{
     width: 30px;
     height: 30px;
     padding: 10px;
-    border-right: 1px solid #fff ;
+    border: 1px solid #fff ;
 }
 
 header label:hover {
     cursor: pointer;
     background: rgba(0, 0, 0, 0.3);
+}
+.menu{
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
 .menu ul{
@@ -31,13 +31,12 @@ header label:hover {
     list-style: none;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    
 }
 
 .menu li{
-    text-align: center;
-    flex-grow:1 ;
-    border-right: 1px solid #fff;
+    
+    border: 1px solid #fff;
     display: block;
     padding: 15px 20px;
     color: #fff;
@@ -50,6 +49,7 @@ header label:hover {
 }
 
 .menu li a{
+    
     display: block;
     padding: 15px 20px;
     color: #fff;
@@ -63,9 +63,8 @@ header label:hover {
 
     .menu{
         position: absolute;
-        background:-webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430)) ;
         width: 30%;
-        margin-left: -80%;
+        margin-left: -30%;
         transition: all 0.5s;
     }
 
@@ -82,6 +81,15 @@ header label:hover {
     }
 
 }
+
+
+
+
+
+
+
+
+
 
 .marco{
     width:100%;

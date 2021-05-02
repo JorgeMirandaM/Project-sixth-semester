@@ -14,8 +14,6 @@ export class InventarioComponent implements OnInit {
 
   ngOnInit() {
   }
-  irProducto(){
-    this.router.navigate(['./productos']);
-  }
+  
 
 }

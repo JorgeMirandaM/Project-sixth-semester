@@ -1,4 +1,4 @@
-html {
+/*html {
     background-color: #7b4397;
     min-height: 1000px;
     font-family: 'helvetica neue';
@@ -7,23 +7,32 @@ html {
     background: url(./assets/fondo.png), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
     background: url(./assets/fondo.png), linear-gradient(to left, #7b4397, #dc2430)
   }
-  
+  */
   h1 {
-    color: #fff;
+    color: black;
     padding: 10px;
   }
-  
+  body{
+    margin:0;
+    min-height: 100vh;
+    background-image: url(./assets/fondociudad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+  }
   
   .box {
     max-width: 400px;
     margin: 50px auto;
-    background: white;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
   }
   
   #heading {
-    background-color: #b53f66;
+    
     text-align: center;
   }
   
@@ -65,8 +74,6 @@ html {
     width: 50px;
     border-radius: 50%;
     border-color: transparent;
-    background-color: #b53f3f;
-    color: #fff;
     font-size: 30px;
     padding-bottom: 6px;
     border-width: 0;
@@ -77,7 +84,6 @@ html {
     width: 50px;
     border-radius: 50%;
     border-color: transparent;
-    background-color: red;
     color: #fff;
     font-size: 30px;
     padding-bottom: 6px;
