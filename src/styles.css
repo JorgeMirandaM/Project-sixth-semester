@@ -8,18 +8,16 @@
     background: url(./assets/fondo.png), linear-gradient(to left, #7b4397, #dc2430)
   }
   */
+ 
   h1 {
     color: black;
     padding: 10px;
   }
   body{
-    margin:0;
-    min-height: 100vh;
-    background-image: url(./assets/fondociudad.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  
+    font-family: 'Quicksand', sans-serif;
+    background: #181818;
+    color: #fff;
     
   }
   
@@ -52,13 +50,7 @@
     margin: 20px;
   }
   
-  p {
-    margin: 0;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: 200;
-    color: #00204a;
-  }
+
 
   .centrado{
     text-align: center;
@@ -123,4 +115,104 @@ h2{
 .loginsesion{
   margin-left: 50px;
   margin-bottom: 30px;
+}
+
+
+header{
+  width:auto;
+}
+
+#btn-menu{
+  display: none;
+}
+
+header label{
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #fff ;
+}
+
+header label:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.3);
+}
+.menu{
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.menu ul{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  
+}
+
+.menu li{
+  text-align: center;
+  /*flex-grow: 5;*/
+  border: 1px solid #fff;
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.menu li:hover{
+  background: rgba(0,0,0, 0.3);
+}
+
+.menu li a{
+  
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px){
+  header label {
+      width: 30px;
+      height: 30px;
+      display:block;
+      background: #fff;
+  }
+
+  .menu{
+      position: absolute;
+      width: 30%;
+      margin-left: -35%;
+      transition: all 0.5s;
+  }
+
+  .menu ul{
+      flex-direction: column;
+  }
+
+  .menu li{
+      border-top: 1px solid #fff;
+  }
+
+  #btn-menu:checked ~ .menu{
+      margin: 0;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+.marco{
+  width:100%;
+  height: 100%;
+  border:none;
 }

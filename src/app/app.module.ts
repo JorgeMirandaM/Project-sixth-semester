@@ -8,8 +8,11 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './auth/login/login.component';
 import { AdminComponent } from './components/administrador/admin/admin.component';
 import { CajeroComponent } from './components/cajero/cajero.component';
-import { InventarioComponent } from './components/inventario/inventario.component';
-import { ProductosComponent } from './components/inventario/secciones/productos/productos/productos.component';
+import { InfotrabajadoresComponent } from './components/trabajador/infotrabajadores/infotrabajadores.component';
+import { ProductosComponent } from './components/inventario/productos/productos.component';
+import { ProveedoresComponent } from './components/inventario/proveedores/proveedores.component';
+import { MercanciaComponent } from './components/inventario/mercancia/mercancia.component';
+import { EditartrabajadorComponent } from './components/trabajador/editartrabajador/editartrabajador.component';
 
 @NgModule({
   declarations: [
@@ -17,9 +20,11 @@ import { ProductosComponent } from './components/inventario/secciones/productos/
     LoginComponent,
     AdminComponent,
     CajeroComponent,
-    InventarioComponent,
-    
-    ProductosComponent
+    ProductosComponent,
+    ProveedoresComponent,
+    InfotrabajadoresComponent,
+    MercanciaComponent,
+    EditartrabajadorComponent,
   ],
   imports: [
     BrowserModule,
